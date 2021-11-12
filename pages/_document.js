@@ -31,7 +31,7 @@ class MyDocument extends Document {
 						rel="stylesheet"
 					/>
 				</Head>
-				<body>
+				<body className="max-w-max min-w-min mx-auto">
 					<Main />
 					<NextScript />
 				</body>

@@ -5,7 +5,7 @@ const CardIdentidades = ({ identidad }) => {
 	const { nombre, descripcion, imagen } = identidad;
 	return (
 		<div className="flex py-5 lg:py-20 justify-around">
-			<div className="space-y-5 max-w-xs md:max-w-xs">
+			<div className="space-y-5">
 				<div className="relative h-44 w-96 imagen overflow-hidden rounded-xl">
 					<div className="absolute">
 						<Image
