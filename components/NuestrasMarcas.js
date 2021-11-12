@@ -10,13 +10,13 @@ const marcas = [
 			"Siéntete en confianza, segura y con mucha actitud en nuestro espacio exclusivo, donde nuestros profesionales te brindarán la mejor atención y calidad en cada uno de nuestros servicios.",
 		imagen: "/imagen/image9.png",
 	},
-	{
-		id: 2,
-		nombre: "AMELOW",
-		description:
-			"Siéntete en confianza, segura y con mucha actitud en nuestro espacio exclusivo, donde nuestros profesionales te brindarán la mejor atención y calidad en cada uno de nuestros servicios.",
-		imagen: "/imagen/image9.png",
-	},
+	// {
+	// 	id: 2,
+	// 	nombre: "AMELOW",
+	// 	description:
+	// 		"Siéntete en confianza, segura y con mucha actitud en nuestro espacio exclusivo, donde nuestros profesionales te brindarán la mejor atención y calidad en cada uno de nuestros servicios.",
+	// 	imagen: "/imagen/image9.png",
+	// },
 ];
 
 const NuestrasMarcas = () => {
