@@ -12,7 +12,7 @@ const Feed = (props) => {
 	switch (media_type) {
 		case "VIDEO":
 			post = (
-				<a href={permalink}>
+				<a href={permalink} rel="noopener">
 					<video
 						width={500}
 						height={500}
@@ -26,7 +26,7 @@ const Feed = (props) => {
 			break;
 		case "CAROUSEL_ALBUM":
 			post = (
-				<a href={permalink} target="_blank">
+				<a href={permalink} target="_blank" rel="noopener">
 					<Image
 						loader={myLoader}
 						width={820}
@@ -42,7 +42,7 @@ const Feed = (props) => {
 			break;
 		default:
 			post = (
-				<a href={permalink} target="_blank">
+				<a href={permalink} target="_blank" rel="noopener">
 					<Image
 						loader={myLoader}
 						width={820}
@@ -50,7 +50,8 @@ const Feed = (props) => {
 						src={media_url}
 						alt={caption}
 						objectFit="cover"
-						className="relative rounded-xl overflow-hidden shadow-lg"
+						// layout="responsive"
+						className="relative rounded-xl overflow-hidden "
 						unoptimized={true}
 					/>
 				</a>
@@ -58,7 +59,7 @@ const Feed = (props) => {
 	}
 
 	return (
-		<div className="p-10 rounded-xl w-11/12 md:flex  lg:w-full transition duration-500 transform hover:-translate-y-1 hover:scale-110 ">
+		<div className="relative overflow-hidden rounded-xl space-y-5 drop-shadow-xl transition duration-500 transform">
 			{post}
 		</div>
 	);

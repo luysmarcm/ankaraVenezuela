@@ -1,31 +1,40 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+*{
+	box-sizing: border-box;
+}
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
-body{
- font-family: 'Lato', sans-serif
+body {
+	font-family: "Lato", sans-serif;
 }
 
-@font-face {
-  font-family:'Cinzel Decorative', cursive,
-  "Photograph Signature", "Lato";
-  src: url(/public/fonts/cinzel-decorative.woff2), url(/public/fonts/photograph-signature.woff), url(/public/fonts/Lato.woff2);
+.imagen {
+	transition: all 500ms linear;
 }
 
-.imagen{
-  transition: all 500ms linear;
+.imagen .hijo {
+	transition: all 500ms;
+	transform: translateY(100%);
 }
 
-.imagen .hijo{
-  transition: all 500ms;
-  transform: translateY(100%);
+.imagen:hover .hijo {
+	transform: translateY(0);
 }
 
+.menu {
+	transition: all 500ms linear;
+}
 
-.imagen:hover .hijo{
-  transform: translateY(0);
+.textShadow {
+	text-shadow: 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.content {
+	flex: 1 1 auto;
 }
