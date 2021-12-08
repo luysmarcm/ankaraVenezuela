@@ -7,7 +7,6 @@ class MyDocument extends Document {
         return {...initialProps};
     }
 
-<<<<<<< HEAD
     render() {
         return (
             <Html lang='es-Es'>
@@ -33,39 +32,6 @@ class MyDocument extends Document {
             </Html>
         );
     }
-=======
-	render() {
-		return (
-			<Html lang="es-Es">
-				<Head>
-					<meta name="theme-color" content="#00000" />
-					<meta name="google" content="notranslate" />
-					<link rel="icon" href="/favicon.ico" />
-					<link rel="preconnect" href="https://fonts.gstatic.com" />
-					<link rel="apple-touch-icon" href="/favicon.ico" />
-					<link rel="preconnect" href="https://fonts.googleapis.com" />
-					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-					<link
-						href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap"
-						rel="stylesheet"
-					/>
-					<link
-						href="http://fonts.cdnfonts.com/css/photograph-signature"
-						rel="stylesheet"
-					/>
-					<link
-						href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap"
-						rel="stylesheet"
-					/>
-				</Head>
-				<body className="max-w-max min-w-min mx-auto">
-					<Main />
-					<NextScript />
-				</body>
-			</Html>
-		);
-	}
->>>>>>> f558da54841eda176051b149814931bf929403ab
 }
 
 export default MyDocument;
