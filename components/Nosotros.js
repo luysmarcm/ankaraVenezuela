@@ -6,8 +6,13 @@ const nosotros = [
 		id: 1,
 		titulo: "Maquillaje",
 		description:
+<<<<<<< HEAD
 			"Variedad, calidad y mucho brillo encontrarás en Ankara. Encuentra tus productos de maquillaje favoritos y prepárate para realzar tu belleza.",
 		imagen: "/imagen/maquillaje.jpg",
+=======
+			"Crea maquillajes de impacto con efecto duradero y resalta tus ojos con colores vibrantes y brillantes ideales para el día o la noche.",
+		imagen: "/imagen/image2.png",
+>>>>>>> f558da54841eda176051b149814931bf929403ab
 	},
 	{
 		id: 2,
@@ -25,7 +30,11 @@ const nosotros = [
 	},
 	{
 		id: 4,
+<<<<<<< HEAD
 		titulo: "Aparatos Estéticos ",
+=======
+		titulo: "Innovacion",
+>>>>>>> f558da54841eda176051b149814931bf929403ab
 		description:
 			"Te ayudamos a innovar tu Spa o emprendimiento con aparatos de última generación para los diferentes tratamientos estéticos.",
 		imagen: "/imagen/aparatos.jpg",
